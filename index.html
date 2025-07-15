@@ -5,135 +5,209 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAWUMA DEO - Portfolio</title>
     <link rel="stylesheet" href="styles1.css">
-    <script src="script1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <section class="head">
-    <header class="bg-primary text-white text-center py-4" >
-    <h1 id ="welcome"></h1>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-</section>
+        <header class="text-white text-center py-4">
+            <h1 id="welcome"></h1>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#data-analysis">Data Analysis</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
 
     <section id="about" class="container my-5">
         <div class="row">
             <div class="col-md-4 text-center">
-                <img src="dk1.jpeg" alt="Your Photo" class="img-fluid rounded-circle mb-3">
+                <img src="dk1.jpeg" alt="KAWUMA DEO" class="img-fluid rounded-circle mb-3">
             </div>
             <div class="col-md-8">
                 <h2>About Me</h2>
-                <p>Hello! I’m a seasoned software engineer with extensive experience in PHP ,Java, Python, and Dart. Over the years, I’ve honed my skills in developing robust and scalable applications, whether it’s for mobile platforms or web environments.</p>
-                <p>My love for computers and programming started at a young age. I remember the thrill of writing my first lines of code in C programming and watching the computer execute my commands. This initial spark ignited a lifelong passion for technology and problem-solving.</p>
-                <p>Beyond technical skills, I thrive in collaborative environments, where I can share knowledge and learn from others. I believe in continuous learning and staying updated with the latest industry trends to deliver cutting-edge solutions. My goal is to leverage my diverse skill set to contribute to impactful projects and drive technological advancements.</p>
-                <p>Alongside my passion for software development, I have a deep appreciation for nature. This love for the natural world often inspires my work, especially when it comes to projects related to environmental science and sustainability. Combining technology with nature allows me to create solutions that not only advance our capabilities but also help protect and understand our planet better.</p>
+                <p>Hello! I'm a seasoned software engineer and data analyst with extensive experience in PHP, Java, Python, and Dart. Over the years, I've honed my skills in developing robust applications and extracting meaningful insights from complex datasets.</p>
+                <p>My journey in technology began with writing my first lines of code in C programming, which ignited a lifelong passion for problem-solving through technology. This passion evolved to include data analysis, where I combine technical skills with analytical thinking to drive data-informed decisions.</p>
+                <p>Beyond technical skills, I thrive in collaborative environments where I can share knowledge and learn from others. I believe in continuous learning and staying updated with the latest industry trends to deliver cutting-edge solutions.</p>
+                <p>My unique combination of software development and data analysis skills allows me to bridge the gap between technical implementation and business intelligence, creating solutions that are both technically sound and strategically valuable.</p>
             </div>
         </div>
     </section>
 
-
-    <h1 class="text-center">Projects</h1>
-
+    <section id="data-analysis" class="container my-5 animate-fadeIn">
+        <h2 class="text-center mb-5">Data Analysis & Visualization</h2>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Core Competencies</h3>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> Advanced Tableau & Power BI Dashboards</div>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> SQL for Complex Data Querying</div>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> Python Data Stack (Pandas, NumPy)</div>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> Statistical Analysis & Hypothesis Testing</div>
+                    <div class="skill-item"><i class="fas fa-check-circle"></i> ETL Processes & Data Pipelines</div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="skill-category">
+                    <h3><i class="fas fa-lightbulb"></i> Value I Provide</h3>
+                    <div class="skill-item"><i class="fas fa-arrow-right"></i> Transform raw data into actionable insights</div>
+                    <div class="skill-item"><i class="fas fa-arrow-right"></i> Develop interactive dashboards for decision-makers</div>
+                    <div class="skill-item"><i class="fas fa-arrow-right"></i> Implement automated reporting solutions</div>
+                    <div class="skill-item"><i class="fas fa-arrow-right"></i> Build predictive models for business forecasting</div>
+                    <div class="skill-item"><i class="fas fa-arrow-right"></i> Optimize data collection and storage processes</div>
+                </div>
+            </div>
+        </div>
+        
+        <h3 class="text-center mt-5 mb-4">Data Visualization Portfolio</h3>
+        <div class="row dashboard-gallery">
+            <div class="col-md-4 liner-div">
+                <div class="dashboard-item">
+                    <img src="salesdash.png" alt="Sales Performance Dashboard">
+                    <div class="p-3">
+                        <h4>Sales Analytics</h4>
+                        <p>Interactive Tableau dashboard tracking regional sales performance with drill-down capabilities.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 liner-div">
+                <div class="dashboard-item">
+                    <img src="customer.png" alt="Marketing Dashboard">
+                    <div class="p-3">
+                        <h4>Marketing Insights</h4>
+                        <p>Power BI dashboard analyzing campaign performance and customer acquisition costs.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 liner-div">
+                <div class="dashboard-item">
+                    <img src="financialdash.jpg" alt="Financial Dashboard">
+                    <div class="p-3">
+                        <h4>Financial Reporting</h4>
+                        <p>Custom Python dashboard visualizing financial trends and budget variances.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="projects" class="container my-5">
-    <div class="container">
-
+        <h2 class="text-center mb-5">Software Development Projects</h2>
+        
         <div class="row">
-            <div class="liner-div" >
+            <div class="col-md-4 liner-div">
                 <div class="card mb-4">
-                    <img src="sch web img.jfif" class="card-img-top" alt="School Website">
+                    <img src="sch-web-img.jfif" class="card-img-top" alt="School Website">
                     <div class="card-body">
                         <h3 class="card-title">School Website</h3>
-                        <p class="card-text">One of my most rewarding projects was developing a comprehensive school website that catered to the needs of students, parents, teachers, and administrators.</p>
+                        <p class="card-text">Developed a comprehensive school website with portals for students, parents, and administrators. Features include grade tracking, event calendars, and secure communication channels.</p>
+                        <div class="tech-tags">
+                            <span class="badge badge-primary">PHP</span>
+                            <span class="badge badge-secondary">MySQL</span>
+                            <span class="badge badge-success">JavaScript</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <br><br><br>
-            <div class="liner-div" >
+            
+            <div class="col-md-4 liner-div">
                 <div class="card mb-4">
-                    <img src="yaven.png" class="card-img-top" >
+                    <img src="yaven.png" class="card-img-top" alt="Stationery Haven">
                     <div class="card-body">
                         <h3 class="card-title">Stationery Haven</h3>
-                        <p class="card-text">Developed a sophisticated stationery website designed to revolutionize how people shop for their everyday office and school supplies.</p>
+                        <p class="card-text">E-commerce platform for office supplies with inventory management, recommendation engine, and analytics dashboard to track sales trends and customer behavior.</p>
+                        <div class="tech-tags">
+                            <span class="badge badge-primary">Python</span>
+                            <span class="badge badge-secondary">Django</span>
+                            <span class="badge badge-success">PostgreSQL</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            <br><br><br>
             
-
-            <div class="liner-div" >
+            <div class="col-md-4 liner-div">
                 <div class="card mb-4">
                     <img src="PL.jfif" class="card-img-top" alt="Program Apps">
                     <div class="card-body">
-                        <h3 class="card-title">Program Apps</h3>
-                        <p class="card-text">Throughout my career, I've developed various program apps designed to solve specific problems, enhance productivity, and provide users with a seamless, efficient experience.</p>
+                        <h3 class="card-title">Productivity Suite</h3>
+                        <p class="card-text">Collection of productivity applications including task manager, note-taking app, and time tracker with cross-platform synchronization and data visualization.</p>
+                        <div class="tech-tags">
+                            <span class="badge badge-primary">Flutter</span>
+                            <span class="badge badge-secondary">Dart</span>
+                            <span class="badge badge-success">Firebase</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
 
     <section id="contact" class="container my-5">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:kawumadeo53@gmail.com">kawumadeo53@gmail.com</a></p>
-         <h2>Tel</h2>
-          <p>+256-705865552</p>
-          <p>+256-761668711</p>
-        <br>
-       
-                <form action="https://api.web3forms.com/submit" method="POST">
-                <input type="hidden" name="access_key" value="28943bad-1526-46df-b11f-da177ce60bba">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-    
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-    
-    
-            <label for="details">Drop a Comment/Review</label><br>
-            <textarea id="details" name="details" rows="3"  required></textarea> <br>
-    
-            <button type="submit">Submit</button><br><br>
-        </form>
-          <br><br><br>
+        <h2 class="text-center mb-5">Get In Touch</h2>
         
-        <div class="social-media-icons">
-            <h5> Please Click in the icons Below to Access My Social Media Accounts </h5>
-            <a href="https://www.facebook.com/kawuma.deopro.7/" target="_blank" class="facebook btn btn-primary btn-lg rounded-circle mr-2"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://x.com/deo_kawuma" target="_blank" class="twitter btn btn-primary btn-lg rounded-circle mr-2"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/kawuma-deo-4a3a47309/" target="_blank" class="linkedin btn btn-primary btn-lg rounded-circle mr-2"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/kawumadeopro/" target="_blank" class="instagram btn btn-primary btn-lg rounded-circle"><i class="fab fa-instagram"></i></a>
-            <a href="https://github.com/KAWUMA-24" target="_blank" class="github btn btn-primary btn-lg rounded-circle mr-2"> <i class="fab fa-github"></i></a>
-
+        <div class="row">
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <h4><i class="fas fa-envelope"></i> Email</h4>
+                    <p><a href="mailto:kawumadeo53@gmail.com">kawumadeo53@gmail.com</a></p>
+                    
+                    <h4><i class="fas fa-phone"></i> Phone</h4>
+                    <p>+256-705865552</p>
+                    <p>+256-761668711</p>
+                    
+                    <h4><i class="fas fa-map-marker-alt"></i> Location</h4>
+                    <p>Kampala, Uganda</p>
+                </div>
+                
+                <div class="social-media-icons mt-4">
+                    <h5>Connect With Me</h5>
+                    <a href="https://www.facebook.com/kawuma.deopro.7/" target="_blank" class="facebook btn btn-primary rounded-circle mr-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/deo_kawuma" target="_blank" class="twitter btn btn-primary rounded-circle mr-2"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/kawuma-deo-4a3a47309/" target="_blank" class="linkedin btn btn-primary rounded-circle mr-2"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/kawumadeopro/" target="_blank" class="instagram btn btn-primary rounded-circle mr-2"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/KAWUMA-24" target="_blank" class="github btn btn-primary rounded-circle"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="28943bad-1526-46df-b11f-da177ce60bba">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="details">Message:</label>
+                        <textarea id="details" name="details" rows="5" class="form-control" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
         </div>
-       
+    </section>
 
-        <br> <br>
-  
-        <footer> <p>&copy; 2024 KAWUMA DEO. All Rights Reserved.</p> </footer>
-    
+    <footer class="text-center py-4">
+        <p>&copy; 2023 KAWUMA DEO. All Rights Reserved.</p>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="scripts1.js"></script>
-   <script>
-
-         var message="KAWUMA DEO";
-          var index=0
-          var element=document.getElementById("welcome");
-          setInterval(function(){if (index < message.length){element.innerHTML+=message[index++];
-          }
-        },250)
-   </script>
-
 </body>
 </html>
